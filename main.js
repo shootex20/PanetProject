@@ -230,6 +230,10 @@ function animate() {
   sun.rotation.y += 0.001;
   mercury.rotation.y += 0.002;
   venus.rotation.y += 0.002;
+  earth.rotation.y += 0.002;
+  mars.rotation.y += 0.004;
+  jupiter.rotation.y += 0.001;
+  saturn.rotation.y += 0.001;
 
   controls.update();
 
